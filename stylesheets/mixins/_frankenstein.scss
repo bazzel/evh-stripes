@@ -1,0 +1,23 @@
+@mixin frankenstein {
+  background-color: red;
+  @include lines(
+    (white, 90deg, 23%, 23.5%),
+    (black, 121deg, 47.3%, 52.3%),
+    (black, 161deg, 36.5%, 40%),
+    (black, 19deg, 48%, 52%),
+    (black, 41deg, 12%, 14%),
+    (black, 108.5deg, 57%, 59.2%),
+    (black, 63deg, 67.6%, 69.2%),
+    (black, 144deg, 81%, 87%),
+    (white, 36deg, 38.6%, 41%),
+    (white, 143deg, 55%, 55.9%),
+    (white, 129deg, 69%, 74%),
+    (white, 93deg, 77%, 80.9%),
+    (red, 129deg, 74%, 88%),
+    (white, 42deg, 74%, 76%),
+    (white, 139.5deg, 2%, 6%),
+    (white, 59deg, 18%, 21.9%),
+    (white, 20deg, 1%, 3.9%)
+  );
+}
+

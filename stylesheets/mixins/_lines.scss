@@ -1,0 +1,20 @@
+$transparent: rgba(0,0,0,0);
+
+@mixin lines($array_of_lines...) {
+  $img: ();
+
+  @each $line in $array_of_lines {
+    $color: nth($line, 1);
+    $angle: nth($line, 2);
+    $from: nth($line, 3);
+    $to: nth($line, 4);
+
+    $img: append($img, draw-line($color, $angle, $from, $to), comma);
+  }
+  @include background-image($img);
+};
+
+@function draw-line($color, $angle, $from, $to) {
+  @return linear-gradient($angle, $transparent $from, $color $from, $color $to, $transparent $to);
+};
+
