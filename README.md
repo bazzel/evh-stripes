@@ -1,6 +1,6 @@
 # EVH Stripes
 
-This [Compass](compass-style.org) extension provides you with a mixin that allows you to use an Eddie Van Halen red and black-and-white stripes as a CSS3 background for your HTML elements.
+This [Compass](compass-style.org) extension provides you with a mixin that allows you to use an Eddie Van Halen red and black-and-white striped pattern as a CSS3 background for your HTML elements.
 
 ![image](img/frankenstein.png)
 
