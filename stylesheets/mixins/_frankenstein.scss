@@ -1,4 +1,4 @@
-@mixin frankenstein {
+@mixin evh-frankenstein {
   background-color: red;
   @include lines(
     (white, 90deg, 23%, 23.5%),

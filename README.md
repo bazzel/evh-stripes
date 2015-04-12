@@ -29,12 +29,12 @@ Import it into your main stylesheet:
 
 Provides the elements that includes this mixin with a red-black-white striped pattern by applying a CSS3 background.
 
-    @include frankenstein;
+    @include evh-frankenstein;
 
 Example:
 
     .welcome {
-      @include frankenstein;
+      @include evh-frankenstein;
     }
 
 
