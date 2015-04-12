@@ -1,16 +1,15 @@
-# Evh::Stripes
+# EVH Stripes
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/evh/stripes`. To experiment with that code, run `bin/console` for an interactive prompt.
+This [Compass](compass-style.org) extension provides you with a mixin that allows you to use a Eddie Van Halen red and black-and-white stripes as a CSS3 background for your HTML elements.
 
-TODO: Delete this and the text above, and describe your gem
+![image](img/frankenstein.png)
+
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-```ruby
-gem 'evh-stripes'
-```
+    gem 'evh-stripes'
 
 And then execute:
 
@@ -22,17 +21,33 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Import it into your main stylesheet:
 
-## Development
+    @import 'evh-stripes';
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
+### frankenstein
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release` to create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Provides the elements that includes this mixin with a red-black-white striped pattern by applying a CSS3 background.
+
+    @include frankenstein;
+
+Example:
+
+    .welcome {
+      @include frankenstein;
+    }
+
+
+## Roadmap
+
+  * Add the bumblebee
+  * Add the black-white striped pattern
+  * Add the black-white striped with circles pattern
+
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/evh-stripes/fork )
+1. Fork it ( https://github.com/bazzel/evh-stripes/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

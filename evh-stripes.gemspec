@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   # Release Specific Information
-  s.version = '0.0.0'
+  s.version = '0.0.1'
   s.date = '2014-04-12'
 
   # Gem Details
@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.email         = ['patrick.baselier@gmail.com']
 
   s.summary       = %q{Eddie Van Halen striped CSS3 background}
-  s.description   = %q{Use Eddie Van Halen's guitar designs to decorate your backgrounds.}
-  s.homepage      = "https://rubygems.org/gems/evh-stripes"
+  s.description   = %q{Use Eddie Van Halen's guitar designs to decorate your backgrounds}
+  s.homepage      = "https://github.com/bazzel/evh-stripes"
 
   # Gem Files
   s.files = %w(README.md)
