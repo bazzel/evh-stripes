@@ -1,7 +1,8 @@
 Gem::Specification.new do |s|
   # Release Specific Information
-  s.version = '0.0.1'
-  s.date = '2014-04-12'
+  s.version       = '0.0.1'
+  s.licenses      = ['MIT']
+  s.date          = '2014-04-12'
 
   # Gem Details
   s.name          = 'evh-stripes'
